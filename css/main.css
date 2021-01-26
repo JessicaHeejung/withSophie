@@ -1,0 +1,126 @@
+/**------.. 슬래쉬 찍어야지 어디지정해서 가져옴--**/
+body {
+    margin: 0px;
+    background-image: url(../images/background.jpg);
+    background-position: top center;
+}
+
+@font-face {
+    font-family: LucidaGrande;
+    src: url(../fonts/LucidaGrande.ttc);
+}
+
+@font-face {
+    font-family: BradleyHand;
+    src: url(../fonts/BradleyHandBold.ttf);
+}
+
+h1 {
+    text-align: center;
+    font-size: 29px;
+    font-family: LucidaGrande;
+    font-weight: lighter;
+}
+
+.topbox {
+    width: 1000px;
+    height: 385px;
+    margin: 0px auto 150px auto;
+    text-align: center;
+}
+
+.topbox img {
+    text-align: center;
+    margin: 56px 0 40px;
+}
+
+h1 span {
+    color: #205da8;
+}
+
+.bottombox {
+    width: 1000px;
+    height: 655px;
+    margin: 0px auto;
+}
+
+h2 {
+    margin: 8px 0px 8px; 
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(17, 148, 98);
+    font-family: BradleyHand;
+}
+
+.leftbox {
+    width: 290px;
+    height: 320px;
+    background-color: rgba(227, 227, 229, .85);
+    float: left;
+    padding: 15px;
+}
+
+.leftbox a {
+    color: black;
+    text-align: left;
+    font-size: 14px;
+    font-family: LucidaGrande;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.west a:hover {
+    color: rgb(255, 102, 0);
+}
+
+.east {
+    letter-spacing: 0.2px;
+}
+
+.east a:hover {
+    color: #205da8;
+}
+
+
+.leftbox img {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+.centerbox {
+    width: 290px;
+    height: 320px;
+    background-color: rgba(227, 227, 229, .85);
+    float: left;
+    padding: 15px;
+    margin: 0px 20px 0px 20px;
+
+}
+
+li {
+    padding-bottom: 14px;
+    padding-right: 7px;
+    font-size: 14px;
+    color: black;
+    font-family: lucidaGrande;
+}
+
+.rightbox {
+    width: 290px;
+    height: 320px;
+    background-color: rgba(227, 227, 229, .85);
+    float: left;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.rightbox img {
+    filter: grayscale(100%);
+}
+
+.rightbox img:hover {
+    filter: saturate(130%)
+}
